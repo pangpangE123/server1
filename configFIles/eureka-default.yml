@@ -1,1 +1,6 @@
 name: "https://github.com/pangpangE123/server1/config/configFiles/eureka-default.yml"
+source :
+  server.port: 8761
+  spring.application.name: "DISCOVERYSERVICE"
+  eureka.client.register-with-eureka: false
+  eureka.client.fetch-registry: false
