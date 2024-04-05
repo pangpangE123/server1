@@ -1,1 +1,12 @@
-
+server:
+  port: 8888
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pangpangE123/server1
+          search-paths: server1/**
+          default-label: master
